@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    width: 100vw;
+}
+#nav
+{
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+    padding: 30px 50px;
+}
+#nav p
+{
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+#nav p span
+{
+    color: rgb(152, 149, 149);
+}
+#link
+{
+    display: flex;
+    gap: 30px;
+}
+#link a
+{
+    color: #333;
+    text-decoration: none;
+}
+#text 
+{
+    position: absolute;
+    left: 40%;
+    top: 35%;
+}
+#text h1
+{
+    text-transform: capitalize;
+    font-size: 40px;
+    font-weight: 600;
+}
+#text p
+{
+    width: 55%;
+    margin-left: 0 auto;
+}
+#text button
+{
+    padding: 10px 20px;
+    position: absolute;
+    left: 20%;
+    background-color: #333;
+    color: #fff;
+}
+#photo
+{
+    position: absolute;
+    top: 55%;
+    background-size: cover;
+    background-position: center;
+}
+#photo img
+{
+    width: 100vw;
+}
+#bottom
+{
+    display: flex;
+    position: absolute;
+    left: 20%;
+    top: 200%;
+    height: 30vh;
+    width:70%;
+}
+#left
+{
+    position: absolute;
+    top: 10%;
+    width: 45%;
+    height: 30vh;
+    border-color: aqua;
+    border-right: 2px solid#333;
+}
+#left h1
+{
+
+  width: 85%;
+  margin: 10px;
+}
+#left p
+{
+    position: absolute;
+    width: 70%;
+    left: 20%;
+}
+#right
+{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    height: 50vh;
+    width: 35%;
+    border-color: red;
+}
+#right h2
+{
+    padding: 5px;
+}
